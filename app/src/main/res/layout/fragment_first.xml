@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:orientation="horizontal"
+        android:padding="20dp">
+
+        <EditText
+            android:id="@+id/number1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="number"
+            android:textAlignment="center" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="+"
+            android:textAlignment="center"
+            android:textSize="25dp" />
+
+        <EditText
+            android:id="@+id/number2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="number"
+            android:textAlignment="center" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="="
+            android:textAlignment="center"
+            android:textSize="25dp" />
+
+        <EditText
+            android:id="@+id/result"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:editable="false"
+            android:ems="10"
+            android:inputType="number"
+            android:textAlignment="center" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/button_suma"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+
+            android:text="@string/suma" />
+    </LinearLayout>
+
+</LinearLayout><!--<?xml version="1.0" encoding="utf-8"?>-->
+    <!--<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--    xmlns:tools="http://schemas.android.com/tools"-->
+    <!--    android:layout_width="match_parent"-->
+    <!--    android:layout_height="match_parent"-->
+    <!--    tools:context=".FirstFragment">-->
+
+    <!--    <androidx.constraintlayout.widget.ConstraintLayout-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent"-->
+    <!--        android:padding="16dp">-->
+
+
+    <!--        <TextView-->
+    <!--            android:id="@+id/num1"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:layout_marginTop="16dp"-->
+    <!--            android:text="1"-->
+    <!--            app:layout_constraintEnd_toEndOf="parent"-->
+    <!--            app:layout_constraintStart_toStartOf="parent"-->
+    <!--            app:layout_constraintTop_toTopOf="parent"-->
+    <!--            />-->
+
+    <!--        <TextView-->
+    <!--            android:id="@+id/num2"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:layout_marginTop="16dp"-->
+    <!--            android:text="2"-->
+    <!--            app:layout_constraintTop_toBottomOf="@id/num1"-->
+    <!--            app:layout_constraintEnd_toEndOf="parent"-->
+    <!--            app:layout_constraintStart_toStartOf="parent"-->
+    <!--            />-->
+
+    <!--        <Button-->
+    <!--            android:id="@+id/button_suma"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:text="@string/suma"-->
+    <!--            app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--            app:layout_constraintEnd_toEndOf="parent"-->
+    <!--            app:layout_constraintStart_toStartOf="parent"-->
+    <!--            app:layout_constraintTop_toBottomOf="@id/num2"  />-->
+
+
+    <!--        <TextView-->
+    <!--            android:id="@+id/resultado"-->
+    <!--            android:layout_width="126dp"-->
+    <!--            android:layout_height="19dp"-->
+    <!--            android:layout_marginTop="16dp"-->
+    <!--            android:text="Resultado:"-->
+    <!--            app:layout_constraintEnd_toEndOf="parent"-->
+    <!--            app:layout_constraintHorizontal_bias="0.498"-->
+    <!--            app:layout_constraintStart_toStartOf="parent"-->
+    <!--            app:layout_constraintTop_toBottomOf="@id/button_suma" />-->
+
+    <!--        <TextView-->
+    <!--            android:id="@+id/resultValue"-->
+    <!--            android:layout_width="39dp"-->
+    <!--            android:layout_height="21dp"-->
+    <!--            android:layout_marginTop="16dp"-->
+    <!--            android:text="10"-->
+    <!--            app:layout_constraintEnd_toEndOf="parent"-->
+    <!--            app:layout_constraintStart_toStartOf="@id/resultado"-->
+    <!--            app:layout_constraintTop_toBottomOf="@id/button_suma" />-->
+    <!--    </androidx.constraintlayout.widget.ConstraintLayout>-->
+    <!--</androidx.core.widget.NestedScrollView>-->

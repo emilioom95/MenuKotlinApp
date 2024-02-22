@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">MenuKotlinApp</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="lorem_ipsum">
+
+        convallis.\n\n
+
+    </string>
+    <string name="suma">Suma</string>
+    <string name="factorial">Factorial</string>
+    <string name="masa">Masa Corporal\n</string>
+    <string name="calcular">Calcular</string>
+    <string name="resultado">Resultado</string>
+    <string name="peso_kg">Peso(KG)</string>
+    <string name="estatura_m">Estatura(m)</string>
+</resources>

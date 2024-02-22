@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.examples.menukotlinapp.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        android:visible="false"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_suma"
+        android:orderInCategory="100"
+        android:title="@string/suma"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_factorial"
+        android:orderInCategory="100"
+        android:title="@string/factorial"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_masa"
+        android:orderInCategory="100"
+        android:title="@string/masa"
+        app:showAsAction="never" />
+</menu>
